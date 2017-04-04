@@ -32,7 +32,7 @@ var paragraph1 = name1 + " is a normal " + occupation + ". Then, one day, a " + 
                  " who has an incredible " + bodypart1 + ". She may be from the streets, but she can " + verb2 +
                  " like nobody's business. The duo decide to turn the tables on  their pursuers by blowing up a " +
                  noun4 + ". Which triggers a chain reaction, causing the local " + noun5 + ", " + restaurant + ", and the " +
-                 monument + "to explode.";
+                 monument + " to explode.";
 
 
     // Display story by putting title & paragraphs into appropriate divs. (3 points)

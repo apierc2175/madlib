@@ -18,7 +18,7 @@ http://www.redkid.net/madlibs/
 
 <div class="data">
 
-    <p class="instructions">Enter a value into each field. Then press 'Make Story' to read the story you made.</p>
+    <p class="instructions">Fill in the blanks to create a story through the perspective of Michael Bay!</p>
 
     <!--
     Request that the user type in at least 15 words in the form below. Ask for the
@@ -31,23 +31,28 @@ http://www.redkid.net/madlibs/
     -->
 
     <form>
-      <input type="button" onclick="makeStory()" value="Make Story">
 
-      Man's Name<input type="text" id='name1'> <br>
-      Occupation <input type="text" id='occupation'> <br>
-      Noun <input type="text" id='noun1'> <br>
-      Noun <input type="text" id='noun2'> <br>
-      Noun <input type="text" id='noun3'> <br>
-      Shape <input type="text" id='shape'> <br>
-    
-      Verb<input type="text" id='verb1'> <br>
-      Woman's Name<input type="text" id='name2'> <br>
-      Body Part<input type="text" id='bodypart1'> <br>
-      Verb<input type="text" id='verb2'> <br>
-      Noun<input type="text" id='noun4'> <br>
-      Noun<input type="text" id='noun5'> <br>
+      Man's Name<br><input type="text" id='name1'> <br>
+      Occupation <br> <input type="text" id='occupation'> <br>
+      Noun<br> <input type="text" id='noun1'> <br>
+      Noun <br><input type="text" id='noun2'> <br>
+      Noun<br> <input type="text" id='noun3'> <br>
+      Shape <br><input type="text" id='shape'> <br>
+
+      Verb<br><input type="text" id='verb1'> <br>
+      Woman's Name<br><input type="text" id='name2'> <br>
+      Body Part<br><input type="text" id='bodypart1'> <br>
+      Verb<br><input type="text" id='verb2'> <br>
+      Noun<br><input type="text" id='noun4'> <br>
+      Noun<br><input type="text" id='noun5'> <br>
       Restaurant Name<input type="text" id='restaurant'> <br>
       Historic Monument<input type="text" id='monument'> <br>
+    </form>
+    <br>
+    <form action="mad_lib.html">
+      <input type="submit" value="Restart" />
+      <input type="button" onclick="makeStory()" value="Make Story">
+
     </form>
 
 </div>
@@ -63,6 +68,10 @@ http://www.redkid.net/madlibs/
 
 <!-- don't forget to link to the story_maker.js file here. -->
 <script src="story_maker.js"></script>
+
+<center>
+<img src="bang.jpg">
+</center>
 
 </body>
 </html>
